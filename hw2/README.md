@@ -6,7 +6,7 @@
 - 例：https://tenn.in/quiz
   - 4択でなくても良い
 
-## 第 1 問
+## 第 1 問 - 未使用な変数
 ```go
 package main
 
@@ -27,7 +27,7 @@ func main() {
 go 言語では、定義した変数を必ず使用しなければならない。
 </details>
 
-## 第 2 問
+## 第 2 問 - 変数定義
 ```go
 package main
 
@@ -50,7 +50,7 @@ func main() {
 go 言語では、`:=` を使用して代入することで、変数宣言を書かなくても変数を作成することができる。
 </details>
 
-## 第 3 問
+## 第 3 問 - if 文の記述
 ```go
 package main
 
@@ -80,7 +80,7 @@ if num == 1 {
 の様に記述しなければコンパイルエラーを起こすようになっている。
 </details>
 
-## 第 4 問
+## 第 4 問 - 配列とスライス
 ```go
 package main
 
@@ -108,7 +108,7 @@ variable := array[first:last]
 の様に記述すると、配列 `array` の 範囲 `first` から `last` までの範囲をコピーし、`variable` に代入される。
 </details>
 
-## 第 5 問
+## 第 5 問 - 数字の区切り文字
 ```go
 package main
 
@@ -132,7 +132,7 @@ func main() {
 go 言語では、可読性向上のため、数字を `_` で区切ることができる。
 </details>
 
-## 第 6 問
+## 第 6 問 - map の初期化問題
 ```go
 package main
 
@@ -162,7 +162,7 @@ numCount := map[int]int{}
 このように書き換えると、指定の型で初期化することができるので、`panic` にならない。
 </details>
 
-## 第 7 問
+## 第 7 問 - パッケージ外へのエクスポート
 `main.go`
 ```go
 package main
