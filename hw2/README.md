@@ -192,7 +192,7 @@ func subMethod() {
 
 理由:  
 `subMethod` は、パッケージ外にエクスポート (公開) されていないため、見つからずに `compile error` となる。
-```diff_go
+```diff
 + func SubMethod() {
 - func subMethod() {
     println("sub")
