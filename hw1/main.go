@@ -21,8 +21,8 @@ func init() {
 func main() {
 	flag.Parse()
 
-	// AccountBookをNewAccountBookを使って作成
-	ab := NewAccountBook("accountbook.txt")
+	// 引数のファイルをNewAccountBookを使って作成
+	ab := NewAccountBook(os.Args[1])
 
 	for {
 
